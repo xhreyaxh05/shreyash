@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input tags in HTML</title>
+
+</head>
+
+<body>
+
+    <h1>General form</h1>
+
+    <!-- lets make an online form -->
+    <form action="userDataWillBeSentToThisLocation">
+
+        <!-- let's get a textbox first for writing name -->
+        <label for="firstName">First Name: </label>
+        <input type="text" id="firstName" placeholder="Enter your first name" required><br><br>
+
+        <!-- let's get another textbox for writing your hobbies -->
+        <label for="lastName">Last Name: </label>
+        <input type="text" id="lastName" placeholder="Enter your last name" required><br><br>
+
+        <!-- Let's take email address from the user -->
+        <label for="emailAddress">Email address: </label>
+        <input type="email" id="emailAddress" placeholder="Enter your email address"><br><br>
+
+        <!-- Let's take password from the user -->
+        <label for="password">Password: </label>
+        <input type="password" id="password" placeholder="Enter your password"><br><br>
+
+        <!-- Let's take date of birth as input -->
+        <label for="dob">Enter your DOB: </label>
+        <input type="date" id="dob"><br><br>
+
+        <!-- Let's take date of birth as input -->
+        <label for="colorPicker">Pick you favourite color: </label>
+        <input type="color" id="colorPicker"><br><br>
+
+        <!-- Let's take file as input -->
+        <label for="filePicker">Select your file: </label>
+        <input type="file" id="filePicker"><br><br>
+
+        <!-- to submit the user data, let's make a submit button -->
+        <input type="submit"><br><br>
+
+        <!-- Let's create a normal button -->
+        <input type="button" value="Button Text">
+
+    </form>
+
+</body>
+
+</html>
